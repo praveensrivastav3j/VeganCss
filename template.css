@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div {
+	display: inline-block;
+
+}
+
+
+
+.navbar{
+	height: 65px;
+	width: 100%;
+}
+
+.navbar li{
+	float: left;
+	list-style: none;
+	margin: 22px 0px;
+	text-align: right;
+	position: relative;
+	left: 800px;
+}
+
+.navbar li a{
+	padding: 4px 5px;
+	border-radius: 20px;
+	margin-left: 19px;
+	text-decoration: none;
+	color: black;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+	margin: 10px 14px;
+	float: left;
+}
+
+.btn{
+	background-color: rgb(100, 230, 13);
+	color: white;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 4px 15px;
+}
+
+.page {
+	background-image: url(landing-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 650px;
+	width: 1340px;
+}
+
+.page h3 {
+	text-align: center;
+	letter-spacing: 4px;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 270px;
+}
+
+.page p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: grey;
+	text-align: center;
+	margin: 15px 250px;
+}
+
+#process div {
+	width: 332px;
+	height: 400px;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+.icon{
+	height: 50px;
+	width: 50px;
+	margin: 100px 135px 15px 135px;
+	opacity: 0.7;
+	transition: 0.4s ease-in-out;
+}
+
+.icon:hover {
+	transform: scale(1.5);
+	color: white;
+}
+
+#process div h3{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#process div p{
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 13px;
+	padding: 15px 20px;
+}
+
+.icons {
+	width: 1340px;
+	height: 500px;
+	background-color: rgb(253, 182, 253);
+	overflow: hidden;
+}
+
+.icon
+
+#icons h6, .fff{
+	text-align: center;
+	margin-top: 70px;
+	font-style: italic;
+	color: green;
+}
+
+#icons h2, #views h2 {
+	text-align: center;
+	word-spacing: 1px;
+	text-transform: capitalize;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#icons p, #views p {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: grey;
+}
+
+#views {
+	width: 1340px;
+	height: 620px;
+}
+
+#views div {
+	float: left;
+	margin-left: 5px;
+	margin-top: 25px;
+	background-color: rgb(218, 185, 250);
+	height: 340px;
+	width: 350px;
+	border-radius: 30px 0px 20px 30px;
+	background-repeat: no-repeat;
+	background-size: 80px, 80px, 80px;
+	background-position: 130px 45px;
+}
+#views div:hover {
+	transform: rotate3d(360deg);
+}
+
+#views .one {
+	background-image: url(face5.jpg);
+	margin-left: 140px;
+}
+
+#views .two {
+	background-image: url(face6.jpg);
+}
+
+#views .three {
+	background-image: url(face7.jpg);
+	margin-right: 140px;
+}
+.one p, h5, h6 {
+	text-align: center;
+}
+
+.one p, .two p, .three p {
+	margin-top: 150px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-style: italic;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.one h6, .two h6, .three h6 {
+	margin-top: 5px;
+	font-style: italic;
+	color: green;
+}
+
+.one h5, .two h5, .three h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-size: 17px;
+}
+
+#break .pic {
+	height: 650px;
+	width: 940px;
+	background-image: url(img1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#break .msg {
+	width: 400px;
+	height: 650px;
+	background-image: url(img.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+
+.msg h2, input, button {
+	margin-left: 60px;
+	margin-right: 40px;
+}
+.msg p{
+	text-align: left;
+	margin-left: 60px;
+	margin-right: 40px;
+}
+
+.msg h2 {
+	margin-top: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+	margin-top: 40px;
+	width: 280px;
+	height: 30px;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
+input::placeholder{
+	padding-left: 10px;
+}
+.msg button {
+	margin-top: 10px;
+	background-color: crimson;
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	height: 35px;
+	width: 120px;
+	font-weight: bold;
+	transition: 0.3s ease-in-out;
+}
+.msg button:hover{
+	width: 280px;
+}
+#count {
+	width: 1340px;
+	height: 200px;
+	background-color: rgb(242, 251, 253);
+}
+
+#vegan {
+	width: 1340px;
+	height: 500px;
+	background-color: white;
+}
+#vegan p{
+	 margin-top: 15px; 
+}
+.veg{
+	width: 900px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 200px;
+	transition: 0.4s ease-in-out;
+}
+.veg:hover{
+	filter: blur(9px);
+}
+
+#count div {
+	width: 240px;
+	margin-top: 50px;
+	margin-left: 65px;
+}
+
+#count div,
+p {
+	text-align: center;
+}
+
+#count p {
+	color: green;
+	font-style: italic;
+	padding-bottom: 30px;
+}
+
+#info {
+	width: 1340px;
+	height: 600px;
+}
+
+#info div {
+	width: 668px;
+	height: 600px;
+	float: left;
+}
+#contact h6{
+	margin-left: 150px;
+	height: 8px;
+	text-align: left;
+	font-style: italic;
+	color: green;
+}
+#form h6{
+	margin-left: 80px;
+	height: 8px;
+	text-align: left;
+	font-style: italic;
+	color: green;
+}
+#contact h2{
+	margin-left: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	text-align: left;
+}
+#form h2{
+	margin-left: 80px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	text-align: left;
+}
+#contact p{
+	margin-left: 150px;
+	text-align: left;
+	color: gray;
+}
+#form p{
+	margin-left: 80px;
+	margin-right: 90px;
+	text-align: left;
+	color: gray;
+}
+#contact h5{
+	margin-left: 150px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 40px;
+	height: 18px;
+	text-align: left;
+}
+#contact h6, #form h6{
+	margin-top: 50px;
+}
+#form input, textarea{
+	margin-left: 80px;
+	margin-top: 15px;
+	width: 450px;
+	height: 40px;
+	outline: none;
+	border: 1px solid gray;
+}
+#form input, textarea::placeholder{
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#form textarea::placeholder{
+	padding-top: 10px;
+}
+#form textarea{
+	height: 60px;
+}
+#form button{
+	margin-left: 80px;
+	border-radius: 4px;
+	margin-top: 20px;
+	background-color: green;
+	
+}
+#copyrght{
+	height: 40px;
+	width: 1340px;
+	background-color: black;
+}
+#copyrght p{
+	color: white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
